@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757d49c2800aea542bd066b1d1377ca3, type: 3}
+  m_Name: AB Macau
+  m_EditorClassIdentifier: 
+  story: 'Macau:
+
+    sint occaecati cupiditate non provident, similique sunt in
+    culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et
+    harum quidem rerum
+
+
+    your option:
+
+    Zhuhai = 1
+
+    Chibidao = 2
+
+    Nanjiang
+    = 3
+
+
+    return to Hong Kong = 4'
+  nextRoomState:
+  - {fileID: 11400000, guid: 5f89538c41431534aa26cff48b87583b, type: 2}
+  - {fileID: 11400000, guid: 53a49186d361bbe4c8034c20e36a1070, type: 2}
+  - {fileID: 11400000, guid: c75f859526cc2f24fa7c00cc54dafeeb, type: 2}
+  - {fileID: 11400000, guid: e8e383912e1a7c643b0d3c4b8b81d0be, type: 2}

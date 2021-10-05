@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757d49c2800aea542bd066b1d1377ca3, type: 3}
+  m_Name: 00 Start
+  m_EditorClassIdentifier: 
+  story: '00 Start:
+
+    The story begins with religious hypocrisy, and ends with
+    thunderstorms in autumn. It features a sympathetic villain and someone who lives
+    in the moment, but the overall narrative has a connection to a mythic cycle.
+
+
+    your
+    option:
+
+    Hong Kong = 1
+
+    Singapore = 2
+
+    Taiwan = 3'
+  nextRoomState:
+  - {fileID: 11400000, guid: e8e383912e1a7c643b0d3c4b8b81d0be, type: 2}
+  - {fileID: 11400000, guid: 0fd0c5249db0cc0428c846572aad654d, type: 2}
+  - {fileID: 11400000, guid: db6ac341bfd570547a8a044ce39bc187, type: 2}

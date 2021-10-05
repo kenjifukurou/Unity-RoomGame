@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757d49c2800aea542bd066b1d1377ca3, type: 3}
+  m_Name: A HongKong
+  m_EditorClassIdentifier: 
+  story: 'Hong Kong:
+
+    sint occaecati cupiditate non provident, similique sunt
+    in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+    Et harum quidem rerum
+
+
+    your option:
+
+    Macau = 1
+
+    Sham Shui Po = 2
+
+    Sheung
+    Shui = 3
+
+
+    return = 4'
+  nextRoomState:
+  - {fileID: 11400000, guid: 3d56ebdf440d13140bc1b9117402ace8, type: 2}
+  - {fileID: 11400000, guid: 117a4c4dffc038a42953988d167d0cd2, type: 2}
+  - {fileID: 11400000, guid: 5ce2b33feaa92994d9878baf7408b6bc, type: 2}
+  - {fileID: 11400000, guid: 15fa5d16741adc848a67d37378cfbafe, type: 2}
